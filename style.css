@@ -1,0 +1,142 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #BDF4FF;
+}
+
+.navbar {
+  background-color: #b7e5f0;
+  padding: 20px;
+}
+
+.logo {
+  height: 60px; /* Ajustá según tu logo */
+}
+
+.navbar-nav .nav-link {
+  font-size: 20px;
+  margin: 0 15px;
+}
+
+.icono-nav {
+  width: 35px;   /* tamaño de los iconos personalizados */
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.icono-nav:hover {
+  transform: scale(1.1);
+}
+
+
+.carousel-text {
+  background: #000;
+  color: #fff;
+  padding: 8px 0;
+  padding-top: 15px;
+  font-size: 25px;
+}
+
+footer {
+  background-color: #A0A0A0;
+  color: #000000;
+  padding: 26px 0;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.icon-redes {
+  width: 28px;
+  height: auto;
+}
+
+/* Card personalizada */
+.card-custom {
+  background-color: #A0A0A0;   /* fondo gris */
+  border-radius: 25px;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+
+.card-custom img {
+  width: 85%;
+  margin-left: 33px;
+  border-radius: 15px;
+  margin-bottom: -25px;
+}
+
+/* Títulos y textos */
+.card-custom .card-title {
+  margin-top: 35px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 55px;
+}
+
+.card-custom .card-subtitle {
+  margin-left: 55px;
+  font-size: 18px;
+}
+
+.card-custom .precio {
+  margin-left: 55px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+/* Botón de las cards */
+.btn-card {
+  background: linear-gradient(135deg, #9ee7ff, #b7e5f0);
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  padding: 10px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #000;
+  display: flex;
+  margin-top: 95px;
+  margin-right: 35px;
+  align-items: center;
+  gap: 8px; /* espacio entre texto e ícono */
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.btn-card i {
+  font-size: 18px; /* tamaño ícono carrito */
+}
+
+.btn-card:hover {
+  background: linear-gradient(135deg, #74d6f5, #9ee7ff);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+/* Botón catálogo */
+.catalogo{
+  font-size: 35px;
+  border-radius: 10px;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: -35px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-weight: bold;
+  background-color: #A0A0A0;
+}
+
+
+.catalogo:hover {
+  background: linear-gradient(135deg, #74d6f5, #b7e5f0);
+  transform: translateY(3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.35);
+}
+
+
+
+
+
